@@ -1,1 +1,25 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# Logs & cache
+*.log
+.eslintcache
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
